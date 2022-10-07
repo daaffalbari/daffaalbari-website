@@ -25,10 +25,22 @@ export default function Header() {
         }}
         className="flex flex-row items-center"
       >
-        <SocialIcon url="https://linkedin.com/in/daaffalbari" fgColor="gray" bgColor="transparent" />
-        <SocialIcon url="https://instagram.com/daaffalbari" fgColor="gray" bgColor="transparent" />
-        <SocialIcon url="https://youtube.com/" fgColor="gray" bgColor="transparent" />
-        <SocialIcon url="https://twitter.com/" fgColor="gray" bgColor="transparent" />
+        <SocialIcon url="https://linkedin.com/in/daaffalbari" target="_blank" fgColor="gray" bgColor="transparent" />
+        <SocialIcon url="https://instagram.com/daaffalbari" target="_blank" fgColor="gray" bgColor="transparent" />
+        {/* <SocialIcon
+          url="https://www.youtube.com/channel/UCk15vA9qvwh6BJTL8YuAQGw"
+          fgColor="gray"
+          bgColor="transparent"
+          target={'_blank'}
+        /> */}
+
+        <SocialIcon
+          url="https://open.spotify.com/user/soja3tkt2dr4usndb0q7o6e55?si=f7e55aab6eea41ea"
+          target={'_blank'}
+          fgColor="gray"
+          bgColor="transparent"
+        />
+        <SocialIcon url="https://twitter.com/fckalgorithmm" target={'_blank'} fgColor="gray" bgColor="transparent" />
       </motion.div>
       <motion.div
         initial={{
@@ -49,7 +61,14 @@ export default function Header() {
         }}
         className="flex flex-row items-center cursor-pointer text-gray-300"
       >
-        <SocialIcon className="cursor-pointer" network="email" fgColor="gray" bgColor="transparent" url="https" />
+        <SocialIcon
+          className="cursor-pointer"
+          target={'_blank'}
+          network="email"
+          fgColor="gray"
+          bgColor="transparent"
+          url=""
+        />
         <p className="uppercase hidden md:inline-flex text-gray-400 text-sm">Get In Touch</p>
       </motion.div>
     </header>
