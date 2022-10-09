@@ -19,6 +19,7 @@ export default function Hero({}: Props) {
         src="https://media-exp1.licdn.com/dms/image/D5603AQFyHFI8fiSE7g/profile-displayphoto-shrink_400_400/0/1663521254972?e=1670457600&v=beta&t=i6uhOSLcXVYO44bfuv29B-F0908LWNQOLN24wjYUMys"
         alt="profile image"
       />
+
       <div className="z-20">
         <h2 className="text-sm uppercase text-gray-500 pb-2 tracking-[15px]">Software Engineer</h2>
         <h1 className="text-5xl lg:text-6xl font-semibold px-10">

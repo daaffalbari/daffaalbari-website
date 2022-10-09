@@ -27,13 +27,6 @@ export default function Header() {
       >
         <SocialIcon url="https://linkedin.com/in/daaffalbari" target="_blank" fgColor="gray" bgColor="transparent" />
         <SocialIcon url="https://instagram.com/daaffalbari" target="_blank" fgColor="gray" bgColor="transparent" />
-        {/* <SocialIcon
-          url="https://www.youtube.com/channel/UCk15vA9qvwh6BJTL8YuAQGw"
-          fgColor="gray"
-          bgColor="transparent"
-          target={'_blank'}
-        /> */}
-
         <SocialIcon
           url="https://open.spotify.com/user/soja3tkt2dr4usndb0q7o6e55?si=f7e55aab6eea41ea"
           target={'_blank'}
