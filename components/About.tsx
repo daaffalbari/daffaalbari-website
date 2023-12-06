@@ -31,7 +31,7 @@ export default function About({}: Props) {
           duration: 1.2,
         }}
         className="-mb-20 md:mb-0 flex-shrink-0 w-56 h-56 rounded-full object-cover md:rounded-lg md:w-64 md:h-96 xl:w-[400px] xl:h-[500px] xl:mt-11"
-        src="https://media-exp1.licdn.com/dms/image/D5603AQFyHFI8fiSE7g/profile-displayphoto-shrink_400_400/0/1663521254972?e=1670457600&v=beta&t=i6uhOSLcXVYO44bfuv29B-F0908LWNQOLN24wjYUMys"
+        src="/about.jpg"
         alt="daffa ganteng"
       />
 

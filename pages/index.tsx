@@ -30,6 +30,8 @@ const Home: NextPage = () => {
 
       {/* Project */}
 
+      {/* Artikel */}
+
       {/* Contact Me */}
     </div>
   );
